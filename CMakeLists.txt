@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS
+        "zh4ck_usb_keyboard.c"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        badge-bsp
+        lvgl
+)
